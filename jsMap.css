@@ -22,3 +22,15 @@ h1 {
   margin-left: 50px;
   margin-top: 20px;
 }
+
+#placeMarker {
+  float: right;
+  width: 70%;
+  margin: auto;
+}
+#placeMarker input {
+  display: block;
+  margin-bottom: 10px;
+  width: 50%;
+
+}

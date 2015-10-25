@@ -14,20 +14,21 @@
       <div class="col-xs-3 doge">
         <img src="images/doge.jpg" alt="Such Maps" />
       </div>
-      <div class="col-xs-7 col-xs-offset-1 content">
+      <div class="col-xs-4 info">
+        <div id="placeMarker" class="well">
+          <label for="Latitude">Latitude: </label><input class="lat" type="text" placeholder="Enter Latitude">
+          <label for="Longitude">Longitude: </label><input class="long" type="text" placeholder="Enter Longitude">
+          <div onclick="userInputMarker();" class="btn btn-success">Place Marker</div>
+        </div>
+      </div>
+      <div class="col-xs-5 content">
         <div id="map"></div>
       </div>
     </div>
 
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 39.757609, lng: -105.007005},
-          zoom: 10
-        });
-      }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJcBd60Ryq1s4zOZSbEG22pkW8cWHAv5U&callback=initMap"></script>
+    <script type="text/javascript" src="jsMap.js"></script>
+    <script>initMap;</script>
   </body>
 </html>
