@@ -1,3 +1,10 @@
+body {
+  background-color: #4E78A0;
+}
+h1 {
+  font-size: 60px;
+  color: #fff;
+}
 #title {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -8,4 +15,10 @@
   height: 400px;
   background-color: #CCC;
   margin: auto;
+}
+
+.doge img {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 20px;
 }

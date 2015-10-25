@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>GoogleMaps API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
     <link rel="stylesheet" href="jsMap.css">
   </head>
   <body>
     <h1 id="title">Google Maps Sandbox</h1>
-    <div id="map"></div>
+    <div class="row">
 
+      <div class="col-xs-3 doge">
+        <img src="images/doge.jpg" alt="Such Maps" />
+      </div>
+      <div class="col-xs-7 col-xs-offset-1 content">
+        <div id="map"></div>
+      </div>
+    </div>
 
     <script>
       var map;
@@ -19,6 +28,6 @@
         });
       }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY GOES HERE]&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJcBd60Ryq1s4zOZSbEG22pkW8cWHAv5U&callback=initMap"></script>
   </body>
 </html>
