@@ -137,7 +137,9 @@ function addMarker(location, title){
 function removeMarker(){
   marker.setMap(null)
 }
-
-
-
 ```
+
+## Exercise
+- Declare a function called userInputMarker that adds a new marker to the map based on the Lat/Long entered by the user.
+- Add a button that calls a function to change the map center to the Lat/Long entered by the user.
+- Create a function/button that changes the map type.
