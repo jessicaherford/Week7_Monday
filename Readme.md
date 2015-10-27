@@ -1,6 +1,6 @@
 # Monday, October 26th
 
-![Paris](/paris.jpg)
+![Paris](images/paris.jpg)
 
 ## Integrating Google Maps
 [Official Google Documentation]("https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map")
