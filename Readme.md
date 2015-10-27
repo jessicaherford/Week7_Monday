@@ -3,7 +3,7 @@
 ![Paris](images/paris.jpg)
 
 ## Integrating Google Maps
-[Official Google Documentation]("https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map")
+[Official Google Documentation](https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map)
 
 ### Load the API into index.html
 ```html
@@ -49,20 +49,20 @@ Feel free to use either on your page
 
 ### Mini challenges
 - Change map's center to a place of your choosing
-[Lat/Long finder]("http://www.latlong.net/")
+[Lat/Long finder](http://www.latlong.net/)
 - Adjust zoom so streets in the area are readable
 - Try each of the map types
 - Adjust your map size
 - ** Display two maps with different options and relevant titles. You will need to edit the HTML and CSS
 
 ## Diving Deeper into the API
-- Get your API key from Google [Here]("https://developers.google.com/maps/documentation/javascript/get-api-key")
+- Get your API key from Google [Here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 - Place your key in jsMap.html
 - Adjust map setting to you liking
 
 ## Adding Markers
 
-[Read me to improve expand knowledge of overlays]("https://developers.google.com/maps/documentation/javascript/overlays")
+[Read me to improve expand knowledge of overlays](https://developers.google.com/maps/documentation/javascript/overlays)
 <br>
 <br>
 Marker placed on map construction
